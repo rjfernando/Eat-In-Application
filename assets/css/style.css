@@ -187,3 +187,40 @@ p {
     padding: 10px;
     font-size: 16px;
 }
+
+@media screen and (max-width: 375px) {
+    
+    .container {
+        width: 100%;
+    }
+
+    .jumbotron h1 {
+        font-size: 100px;
+    }
+
+    #recipeTable {
+        width: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    
+    .container {
+        width: 100%;
+    }
+
+    .jumbotron h1 {
+        font-size: 100px;
+    }
+
+    .selected-ingredients {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #recipeTable {
+        width: 0 auto;
+    }
+
+}
