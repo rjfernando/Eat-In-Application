@@ -62,7 +62,8 @@ $(document).ready(function () {
             var mealTime = childSnapshot.val().time;
             var mealId = childSnapshot.val().id;
 
-            var convertTime = moment(mealTime);
+            var minutes = Math.floor(mealTime / 60);
+            var convertTime = moment(minutes);
 
             $("#recipeTable > tbody").append("<tr><td><img src=" + mealImage + "></td><td>" + mealName +
                 "</td><td>" + convertTime + "</td><td><button id='getRecipe' value=" + mealId + "></button></td></tr>");
