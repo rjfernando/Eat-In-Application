@@ -98,7 +98,7 @@ $(document).ready(function () {
             var results = response.attribution.url;
             console.log(results);
 
-            window.open(results, "results");
+            window.open(results);
 
         })
 

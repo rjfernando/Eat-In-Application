@@ -54,21 +54,10 @@ $(document).on("click", ".ingredient-button", function () {
 });
 
 $(document).on("click", ".selected-ingredient-button", function () {
-        
-        var addIngredients = JSON.parse(localStorage.getItem("addIngredients"));
-        var currentIndex = $(this).attr("data-name");
-
-        // Deletes the item marked for deletion
-        searchIngredients.splice(currentIndex, 1);
-        list = addIngredients;
-
-        localStorage.setItem("addIngredients", JSON.stringify(addIngredients));
-        console.log(searchIngredients);
-});
-
-$(document).on("click", ".selected-ingredient-button", function () {
     ingredient = $(this).val();
     listIngredients.push(ingredient);
+    searchIngredients.splice(0,1)
+    
     $(this).hide();
 
     // renderButtons();
