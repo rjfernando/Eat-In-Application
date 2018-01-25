@@ -1,0 +1,189 @@
+body {
+    background: url("../images/kitchenbg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+}
+
+.container {
+    width: 0 auto;
+    overflow: auto;
+}
+
+button {
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#getRecipe {
+    border-radius: 12px;
+    background-color: lightgreen;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #e7e7e7;
+}
+
+.jumbotron {
+    background-image: url("../images/headertable.jpg");
+    background-size: 100% 100%;
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    height: 300px;
+}
+
+.jumbotron h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 135px;
+    text-shadow: 6px 6px red;
+}
+
+.jumbotron p {
+    font-size: 30px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.container .jumbotron {
+    border-radius: 25px;
+}
+
+.ingredient-section {
+    background-image: url("../images/ingredientsbg.jpg");
+    background-size: 100% 100%;
+    border: 3px solid white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.ingredient-section h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#addIngredient {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.selected-ingredients {
+    border: 3px solid white;
+    background-image: url("../images/ingredientsidebar.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+.selected-ingredients h3 {
+    margin-top: 24px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.ingredient-list {
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#add {
+    background: lightsteelblue;
+    border-radius: 10px;
+}
+
+#addEntry {
+    border-radius: 10px;
+}
+
+.find-button {
+    margin-top: 33px;
+    background: lightsteelblue;
+    border-radius: 10px;
+}
+
+.clear-button {
+    margin-top: 33px;
+    background: lightsteelblue;
+    border-radius: 10px;
+}
+
+.pre-recipes {
+    background-image: url("../images/recipebg1.jpg");
+    margin-top: 30px;
+    background-size: cover;
+    border: 3px solid white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.pre-recipes h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar fixed-bottom navbar-light bg-light {
+    text-align: center;
+}
+
+.add-ingredient {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    /* position: fixed; */
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: grey;
+    border-top: 8px solid white;
+    clear: both;
+    
+}
+
+.footer-text {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}

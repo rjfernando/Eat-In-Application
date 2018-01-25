@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS links-->
+    <!-- <link rel="stylesheet" href="assets/css/reset.css" media="screen"> -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <!--Firebase Link-->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Lobster|Ruda" rel="stylesheet">
+    <!--moment link-->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <title>Eat-In</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1>Eat-In</h1>
+                        <p class="lead">Make A Delicious Meal With Your Current Ingredients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <div class="ingredient-section">
+                    <h3>Select Your Ingredients</h3>
+                    <div id="ingredientButton">
+                    </div>
+                    <form class="add-ingredient">
+                        <input type="text" placeholder="" id="addEntry">
+                        <input id="add" type="submit" value="Add Ingredient">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="selected-ingredients">
+                    <h3>Current Ingredients</h3>
+                    <div class="white-background">
+                        <div id="ingredientList">
+
+                        </div>
+                    </div>
+                    <button type="button" href="#" class="find-button" value="data-name">Find Recipe</button>
+                    <button type="button" href="#" class="clear-button">Clear</button>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="pre-recipes">
+                    <h3>Recipe List</h3>
+                    <table class="table table-bordered table-light" id="recipeTable">
+                        <thead>
+                            <tr>
+                                <th scope="col-sm-4">Meal</th>
+                                <th scope="col-sm-4">Recipe</th>
+                                <th scope="col-sm-4">Time</th>
+                                <th scope="col-sm-4">Get Recipe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- <div id="preRecipes"> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    </div>
+    <div class="containter">
+        <div class="footer">
+            <p class="footer-text">Copyright &copy; 2018 Eat-In</p>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/logic.js"></script>
+</body>
+
+</html>
