@@ -198,6 +198,10 @@ p {
         font-size: 100px;
     }
 
+    .jumbotron p {
+        font-size: 20px;
+    }
+
     #recipeTable {
         width: 0 auto;
     }
@@ -211,16 +215,45 @@ p {
     }
 
     .jumbotron h1 {
-        font-size: 100px;
+        font-size: 80px;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
     }
 
     .selected-ingredients {
         margin-top: 20px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     #recipeTable {
         width: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    
+    .container {
+        width: 80%;
+    }
+
+    .jumbotron h1 {
+        font-size: 80px;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+    }
+
+    .selected-ingredients {
+        margin-top: 20px;
+        /* margin-bottom: 20px; */
+    }
+
+    #recipeTable {
+        min-width: 100%;
     }
 
 }
